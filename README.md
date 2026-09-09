@@ -9,4 +9,4 @@ the whole publication step.
 
 Everything else lives elsewhere: the catalog in [`prompts`](https://github.com/f-prompts/prompts),
 the protocol and tools in
-[`agent-realm/foreign-prompts`](https://github.com/agent-realm/foreign-prompts).
+[`f-prompts/foreign-prompts`](https://github.com/f-prompts/foreign-prompts).

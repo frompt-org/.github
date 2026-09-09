@@ -8,7 +8,7 @@ difference is not the mechanism, it is that *you named the document*, it declare
 intends, and it ends.
 
 ```
-i-have-read-this-prompt-and-let-it-map-my-repository-read-only-repo-recon-0ee1331  <url>
+i-have-read-this-prompt-and-let-it-map-my-repository-read-only-repo-recon-b8fb834  <url>
 ```
 ```
 ADOPTED: repo-recon v1.0.0
@@ -26,14 +26,14 @@ instructions got in, and did you choose them?**
 
 | Repo | What it is |
 |---|---|
+| [`foreign-prompts`](https://github.com/f-prompts/foreign-prompts) | The protocol — spec, tools, reference prompts, and the conformance harness. |
 | [`prompts`](https://github.com/f-prompts/prompts) | The reference catalog — a signed manifest and the documents it lists. |
 | `.github` | This page. |
 
-**The protocol is not here.** It lives in
-[`agent-realm/foreign-prompts`](https://github.com/agent-realm/foreign-prompts) with the spec,
-the tools and the conformance harness. A standard and a catalog of it are different things, and
-one org owning both invites the assumption that they are the same. This org is one publisher
-among the many the protocol expects.
+Standard and catalog are separate repositories on purpose: one is edited freely, the other
+holds published, immutable artifacts. This org is one publisher among the many the protocol
+expects — a catalog is a shape anyone can serve, and this one is not special for sitting next
+to the spec.
 
 ## Three doors
 
@@ -41,7 +41,7 @@ among the many the protocol expects.
 |---|---|
 | **adopt a prompt** | [`prompts/README.md`](https://github.com/f-prompts/prompts#adopting-from-here) — then the document's own last section, where its consent phrase lives |
 | **publish your own** | [`prompts/README.md`](https://github.com/f-prompts/prompts#publishing-here) — a catalog is `index.json` plus `prompts/<id>/<version>.prompt.md`, served as static files. That is the whole standard |
-| **understand the protocol** | [`FPA.md`](https://github.com/agent-realm/foreign-prompts/blob/main/FPA.md) — normative. [`VISION.md`](https://github.com/agent-realm/foreign-prompts/blob/main/VISION.md) — why any of this. [`SECURITY.md`](https://github.com/agent-realm/foreign-prompts/blob/main/SECURITY.md) — the trust model |
+| **understand the protocol** | [`FPA.md`](https://github.com/f-prompts/foreign-prompts/blob/main/FPA.md) — normative. [`VISION.md`](https://github.com/f-prompts/foreign-prompts/blob/main/VISION.md) — why any of this. [`SECURITY.md`](https://github.com/f-prompts/foreign-prompts/blob/main/SECURITY.md) — the trust model |
 
 ## If you are an agent reading this
 
@@ -57,7 +57,7 @@ If your pilot wants you to learn the protocol properly, `fpa-bootstrap` is the p
 teaches it, refusals included:
 
 ```
-https://raw.githubusercontent.com/agent-realm/foreign-prompts/main/prompts/fpa-bootstrap/2.0.0.prompt.md
+https://raw.githubusercontent.com/f-prompts/foreign-prompts/main/prompts/fpa-bootstrap/2.0.0.prompt.md
 ```
 
 ## What this org is not
@@ -72,11 +72,11 @@ which is what the consent phrase is arranged to make you do.
 
 **Not protection.** Adoption settles *whose* instructions got in, and nothing else. The
 non-goals are permanent and written down in
-[`FPA.md` §0](https://github.com/agent-realm/foreign-prompts/blob/main/FPA.md).
+[`FPA.md` §0](https://github.com/f-prompts/foreign-prompts/blob/main/FPA.md).
 
 ## Status
 
 Protocol v2. The catalog is **private today** and goes public when there is something worth
 arriving at. No publisher outside this org exists yet, which is the honest state of it —
-[`VISION.md`](https://github.com/agent-realm/foreign-prompts/blob/main/VISION.md) has the stages
+[`VISION.md`](https://github.com/f-prompts/foreign-prompts/blob/main/VISION.md) has the stages
 and the count.
