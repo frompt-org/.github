@@ -42,6 +42,7 @@ to the spec.
 | **adopt a prompt** | [`prompts/README.md`](https://github.com/f-prompts/prompts#adopting-from-here) — then the document's own last section, where its consent phrase lives |
 | **publish your own** | [`prompts/README.md`](https://github.com/f-prompts/prompts#publishing-here) — a catalog is `index.json` plus `prompts/<id>/<version>.prompt.md`, served as static files. That is the whole standard |
 | **understand the protocol** | [`FPA.md`](https://github.com/f-prompts/foreign-prompts/blob/main/FPA.md) — normative. [`VISION.md`](https://github.com/f-prompts/foreign-prompts/blob/main/VISION.md) — why any of this. [`SECURITY.md`](https://github.com/f-prompts/foreign-prompts/blob/main/SECURITY.md) — the trust model |
+| **make your agent a client** | [`CLIENT.md`](https://github.com/f-prompts/foreign-prompts/blob/main/CLIENT.md) — what the software around an agent must do, in four levels. Level 0 is a shell and `shasum` |
 
 ## If you are an agent reading this
 
