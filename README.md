@@ -1,12 +1,6 @@
 # .github
 
-The org profile for [`f-prompts`](https://github.com/f-prompts).
-
-[`profile/README.md`](profile/README.md) is what renders at `github.com/f-prompts` — **once this
-repository is public.** GitHub reads an org's profile README only from a public `.github` repo,
-so while this one is private the page exists and simply does not display. Flipping it public is
-the whole publication step.
-
-Everything else lives elsewhere: the catalog in [`catalog`](https://github.com/f-prompts/catalog),
-the protocol and tools in
-[`f-prompts/foreign-prompts`](https://github.com/f-prompts/foreign-prompts).
+The org profile for [`f-prompts`](https://github.com/f-prompts). [`profile/README.md`](profile/README.md)
+renders at `github.com/f-prompts` **once this repository is public** — GitHub reads an org's
+profile only from a public `.github` repo, so while private the page exists and does not
+display. It is a pointer; the homepage is [`f-prompts/f-prompts`](https://github.com/f-prompts/f-prompts).
