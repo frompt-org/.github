@@ -1,6 +1,6 @@
 # f-prompts
 
-**An f-prompt is a prompt acquired from somewhere else — usually a URL — and adopted, on
+**A foreign prompt — an f-prompt, FP — is a prompt acquired from a non-local source, usually a URL, adopted on
 purpose, by an agent that did not write it.** Prompt injection you chose: you named the
 document, it declares what it intends, your agent announces that it started, and it ends.
 
