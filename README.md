@@ -7,6 +7,6 @@ repository is public.** GitHub reads an org's profile README only from a public 
 so while this one is private the page exists and simply does not display. Flipping it public is
 the whole publication step.
 
-Everything else lives elsewhere: the catalog in [`prompts`](https://github.com/f-prompts/prompts),
+Everything else lives elsewhere: the catalog in [`catalog`](https://github.com/f-prompts/catalog),
 the protocol and tools in
 [`f-prompts/foreign-prompts`](https://github.com/f-prompts/foreign-prompts).
