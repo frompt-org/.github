@@ -3,6 +3,8 @@
 **A foreign prompt — a frompt — is a prompt acquired from a non-local source, usually a URL, adopted on
 purpose, by an agent that did not write it.** Prompt injection you chose: you named the
 document, it declares what it intends, your agent announces that it started, and it ends.
+Skills are what an agent can do; directives are what it is told to do; a frompt is the directive
+that comes from somewhere else.
 
 **Start at [`frompt-org/frompt`](https://github.com/frompt-org/frompt)** — the homepage:
 what this is, the three spellings, the repos, the documents by question, and a paragraph for
